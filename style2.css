@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url("spidy.jpg");
+}
+
+.header {
+    max-height: 30%;
+    background-color: rgba(0, 0, 0, 0.856);
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+.website_name {
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 5px 3px grey;
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.items {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 50%;
+}
+
+img {
+    height: 200PX;
+    width: 200PX;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 5px 5px black;
+    font-weight: bolder;
+}
+
+h2:hover {
+    cursor: none;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img:hover {
+    height: 230px;
+    width: 230px;
+}
+
+.main {
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.336);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 30px;
+    row-gap: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding-top: 50px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.header .navbar {
+    height: 100px;
+    float: right;
+    margin-top: 50px;
+}
+
+.navbar a {
+    font-weight: bolder;
+    color: rgb(160, 35, 35);
+    text-decoration: none;
+    /* float: right; */
+    font-size: 20px;
+    margin-right: 100px;
+    padding: 5px;
+    text-shadow: 3px 4px 5px black;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 255, 0.164);
+    color: white;
+    font-size: 25px;
+    text-shadow: 3px 4px 5px white;
+}
